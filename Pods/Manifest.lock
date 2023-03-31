@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Kingfisher (7.1.2)
+  - ReachabilitySwift (5.0.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxReachability (1.2.1):
+    - ReachabilitySwift (< 6.0, >= 5.0)
+    - RxCocoa (~> 6)
+    - RxSwift (~> 6)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SwiftLint (0.46.2)
+  - Toast-Swift (5.0.1)
+  - "UITextView+Placeholder (1.4.0)"
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - RxCocoa
+  - RxReachability
+  - RxSwift
+  - SwiftLint
+  - Toast-Swift
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - ReachabilitySwift
+    - RxCocoa
+    - RxReachability
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+    - Toast-Swift
+    - "UITextView+Placeholder"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxReachability: bfd13548bf1dac7a877082d13918a9f39bdb5c18
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SwiftLint: 6bc52a21f0fd44cab9aa2dc8e534fb9f5e3ec507
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+
+PODFILE CHECKSUM: d66512e29671c8be0b587e2b38d69d2bd05cec0a
+
+COCOAPODS: 1.8.4

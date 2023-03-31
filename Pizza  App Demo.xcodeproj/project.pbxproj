@@ -10,7 +10,6 @@
 		00A6B3A729D775EE005236FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3A629D775EE005236FD /* AppDelegate.swift */; };
 		00A6B3A929D775EE005236FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3A829D775EE005236FD /* SceneDelegate.swift */; };
 		00A6B3AB29D775EE005236FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3AA29D775EE005236FD /* ViewController.swift */; };
-		00A6B3AE29D775EE005236FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3AC29D775EE005236FD /* Main.storyboard */; };
 		00A6B3B129D775EF005236FD /* Pizza__App_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3AF29D775EE005236FD /* Pizza__App_Demo.xcdatamodeld */; };
 		00A6B3B329D775F3005236FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3B229D775F3005236FD /* Assets.xcassets */; };
 		00A6B3B629D775F3005236FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3B429D775F3005236FD /* LaunchScreen.storyboard */; };
@@ -38,6 +37,14 @@
 		00A6B3F329D78FA6005236FD /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EE29D78FA5005236FD /* UICollectionView+Extensions.swift */; };
 		00A6B3F429D78FA6005236FD /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EF29D78FA6005236FD /* UIStackView+Extensions.swift */; };
 		00A6B3F729D7901B005236FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3F629D7901B005236FD /* RatingView.swift */; };
+		00A6B3FA29D79209005236FD /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3F929D79209005236FD /* Navigator.swift */; };
+		00A6B3FD29D79275005236FD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3FC29D79274005236FD /* AppCoordinator.swift */; };
+		00A6B40229D792A1005236FD /* MainNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3FF29D792A1005236FD /* MainNavigator.swift */; };
+		00A6B40329D792A1005236FD /* CartNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B40029D792A1005236FD /* CartNavigator.swift */; };
+		00A6B40429D792A1005236FD /* PizzaNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B40129D792A1005236FD /* PizzaNavigator.swift */; };
+		00A6B40829D79636005236FD /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B40629D79636005236FD /* BaseWireframe.swift */; };
+		00A6B40929D79636005236FD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B40729D79636005236FD /* BaseViewModel.swift */; };
+		00A6B40B29D79899005236FD /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B40A29D79899005236FD /* Cart.storyboard */; };
 		5975036D2E97C63BDE7C2487 /* Pods_Pizza__App_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +53,6 @@
 		00A6B3A629D775EE005236FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A6B3A829D775EE005236FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00A6B3AA29D775EE005236FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00A6B3AD29D775EE005236FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00A6B3B029D775EE005236FD /* Pizza__App_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pizza__App_Demo.xcdatamodel; sourceTree = "<group>"; };
 		00A6B3B229D775F3005236FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A6B3B529D775F3005236FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +81,14 @@
 		00A6B3EE29D78FA5005236FD /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		00A6B3EF29D78FA6005236FD /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
 		00A6B3F629D7901B005236FD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		00A6B3F929D79209005236FD /* Navigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		00A6B3FC29D79274005236FD /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		00A6B3FF29D792A1005236FD /* MainNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigator.swift; sourceTree = "<group>"; };
+		00A6B40029D792A1005236FD /* CartNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartNavigator.swift; sourceTree = "<group>"; };
+		00A6B40129D792A1005236FD /* PizzaNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaNavigator.swift; sourceTree = "<group>"; };
+		00A6B40629D79636005236FD /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		00A6B40729D79636005236FD /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		00A6B40A29D79899005236FD /* Cart.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
 		3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza__App_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9252A5067BB6ABD06CD5D7 /* Pods-Pizza  App Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.release.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DA1A7F76D1036327C985CE07 /* Pods-Pizza  App Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.debug.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +127,8 @@
 		00A6B3A529D775EE005236FD /* Pizza  App Demo */ = {
 			isa = PBXGroup;
 			children = (
+				00A6B40529D79624005236FD /* BaseWireFrame */,
+				00A6B3FB29D79262005236FD /* Coordinator */,
 				00A6B3F529D7900E005236FD /* Rating View */,
 				00A6B3EA29D78F97005236FD /* Extension */,
 				00A6B3DD29D78F52005236FD /* Model */,
@@ -125,7 +141,6 @@
 				00A6B3A629D775EE005236FD /* AppDelegate.swift */,
 				00A6B3A829D775EE005236FD /* SceneDelegate.swift */,
 				00A6B3AA29D775EE005236FD /* ViewController.swift */,
-				00A6B3AC29D775EE005236FD /* Main.storyboard */,
 			);
 			path = "Pizza  App Demo";
 			sourceTree = "<group>";
@@ -137,6 +152,7 @@
 				00A6B3B729D775F3005236FD /* Info.plist */,
 				00A6B3B229D775F3005236FD /* Assets.xcassets */,
 				00A6B3BD29D77714005236FD /* Colors.xcassets */,
+				00A6B40A29D79899005236FD /* Cart.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -229,6 +245,43 @@
 			path = "Rating View";
 			sourceTree = "<group>";
 		};
+		00A6B3F829D791F9005236FD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3F929D79209005236FD /* Navigator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		00A6B3FB29D79262005236FD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3FC29D79274005236FD /* AppCoordinator.swift */,
+				00A6B3FE29D79285005236FD /* Navigator */,
+				00A6B3F829D791F9005236FD /* Protocols */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		00A6B3FE29D79285005236FD /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B40029D792A1005236FD /* CartNavigator.swift */,
+				00A6B3FF29D792A1005236FD /* MainNavigator.swift */,
+				00A6B40129D792A1005236FD /* PizzaNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		00A6B40529D79624005236FD /* BaseWireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B40729D79636005236FD /* BaseViewModel.swift */,
+				00A6B40629D79636005236FD /* BaseWireframe.swift */,
+			);
+			path = BaseWireFrame;
+			sourceTree = "<group>";
+		};
 		409BA7A302BE51292512A695 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,7 +363,7 @@
 				00A6B3B629D775F3005236FD /* LaunchScreen.storyboard in Resources */,
 				00A6B3BE29D77714005236FD /* Colors.xcassets in Resources */,
 				00A6B3B329D775F3005236FD /* Assets.xcassets in Resources */,
-				00A6B3AE29D775EE005236FD /* Main.storyboard in Resources */,
+				00A6B40B29D79899005236FD /* Cart.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +442,8 @@
 				00A6B3E629D78F64005236FD /* Slider.swift in Sources */,
 				00A6B3CF29D78C02005236FD /* FeedRouter.swift in Sources */,
 				00A6B3F229D78FA6005236FD /* UIView+Extensions.swift in Sources */,
+				00A6B40429D792A1005236FD /* PizzaNavigator.swift in Sources */,
+				00A6B3FD29D79275005236FD /* AppCoordinator.swift in Sources */,
 				00A6B3D929D78EEF005236FD /* NibLoadingView.swift in Sources */,
 				00A6B3CD29D78C02005236FD /* MainRouter.swift in Sources */,
 				00A6B3D829D78EEF005236FD /* AppStoryboard.swift in Sources */,
@@ -398,10 +453,15 @@
 				00A6B3C529D78BF4005236FD /* APIRouter.swift in Sources */,
 				00A6B3F129D78FA6005236FD /* UITableView+Extensions.swift in Sources */,
 				00A6B3F429D78FA6005236FD /* UIStackView+Extensions.swift in Sources */,
+				00A6B40929D79636005236FD /* BaseViewModel.swift in Sources */,
 				00A6B3D329D78EC5005236FD /* CustomTabBarController.swift in Sources */,
 				00A6B3E929D78F64005236FD /* CartItem.swift in Sources */,
+				00A6B40829D79636005236FD /* BaseWireframe.swift in Sources */,
 				00A6B3E529D78F64005236FD /* PizzaOptions.swift in Sources */,
 				00A6B3B129D775EF005236FD /* Pizza__App_Demo.xcdatamodeld in Sources */,
+				00A6B40229D792A1005236FD /* MainNavigator.swift in Sources */,
+				00A6B40329D792A1005236FD /* CartNavigator.swift in Sources */,
+				00A6B3FA29D79209005236FD /* Navigator.swift in Sources */,
 				00A6B3A729D775EE005236FD /* AppDelegate.swift in Sources */,
 				00A6B3CC29D78C02005236FD /* PizzaRouter.swift in Sources */,
 				00A6B3E829D78F64005236FD /* Product.swift in Sources */,
@@ -414,14 +474,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00A6B3AC29D775EE005236FD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00A6B3AD29D775EE005236FD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00A6B3B429D775F3005236FD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -559,9 +611,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pizza  App Demo/Resources/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,9 +640,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pizza  App Demo/Resources/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -15,6 +15,29 @@
 		00A6B3B329D775F3005236FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3B229D775F3005236FD /* Assets.xcassets */; };
 		00A6B3B629D775F3005236FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3B429D775F3005236FD /* LaunchScreen.storyboard */; };
 		00A6B3BE29D77714005236FD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B3BD29D77714005236FD /* Colors.xcassets */; };
+		00A6B3C529D78BF4005236FD /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3C429D78BF4005236FD /* APIRouter.swift */; };
+		00A6B3CB29D78C02005236FD /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3C629D78C02005236FD /* NetworkClient.swift */; };
+		00A6B3CC29D78C02005236FD /* PizzaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3C729D78C02005236FD /* PizzaRouter.swift */; };
+		00A6B3CD29D78C02005236FD /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3C829D78C02005236FD /* MainRouter.swift */; };
+		00A6B3CE29D78C02005236FD /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3C929D78C02005236FD /* NetworkConstants.swift */; };
+		00A6B3CF29D78C02005236FD /* FeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3CA29D78C02005236FD /* FeedRouter.swift */; };
+		00A6B3D329D78EC5005236FD /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3D129D78EC5005236FD /* CustomTabBarController.swift */; };
+		00A6B3D429D78EC5005236FD /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3D229D78EC5005236FD /* CustomTabBar.swift */; };
+		00A6B3D829D78EEF005236FD /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3D629D78EEF005236FD /* AppStoryboard.swift */; };
+		00A6B3D929D78EEF005236FD /* NibLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3D729D78EEF005236FD /* NibLoadingView.swift */; };
+		00A6B3DC29D78F45005236FD /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3DB29D78F45005236FD /* ResponseObject.swift */; };
+		00A6B3E429D78F64005236FD /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3DE29D78F63005236FD /* Size.swift */; };
+		00A6B3E529D78F64005236FD /* PizzaOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3DF29D78F63005236FD /* PizzaOptions.swift */; };
+		00A6B3E629D78F64005236FD /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3E029D78F64005236FD /* Slider.swift */; };
+		00A6B3E729D78F64005236FD /* PizzaCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3E129D78F64005236FD /* PizzaCategory.swift */; };
+		00A6B3E829D78F64005236FD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3E229D78F64005236FD /* Product.swift */; };
+		00A6B3E929D78F64005236FD /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3E329D78F64005236FD /* CartItem.swift */; };
+		00A6B3F029D78FA6005236FD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EB29D78FA5005236FD /* UIColor+Extensions.swift */; };
+		00A6B3F129D78FA6005236FD /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EC29D78FA5005236FD /* UITableView+Extensions.swift */; };
+		00A6B3F229D78FA6005236FD /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3ED29D78FA5005236FD /* UIView+Extensions.swift */; };
+		00A6B3F329D78FA6005236FD /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EE29D78FA5005236FD /* UICollectionView+Extensions.swift */; };
+		00A6B3F429D78FA6005236FD /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3EF29D78FA6005236FD /* UIStackView+Extensions.swift */; };
+		00A6B3F729D7901B005236FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3F629D7901B005236FD /* RatingView.swift */; };
 		5975036D2E97C63BDE7C2487 /* Pods_Pizza__App_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +52,29 @@
 		00A6B3B529D775F3005236FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00A6B3B729D775F3005236FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00A6B3BD29D77714005236FD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		00A6B3C429D78BF4005236FD /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		00A6B3C629D78C02005236FD /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		00A6B3C729D78C02005236FD /* PizzaRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaRouter.swift; sourceTree = "<group>"; };
+		00A6B3C829D78C02005236FD /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		00A6B3C929D78C02005236FD /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		00A6B3CA29D78C02005236FD /* FeedRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedRouter.swift; sourceTree = "<group>"; };
+		00A6B3D129D78EC5005236FD /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		00A6B3D229D78EC5005236FD /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		00A6B3D629D78EEF005236FD /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		00A6B3D729D78EEF005236FD /* NibLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadingView.swift; sourceTree = "<group>"; };
+		00A6B3DB29D78F45005236FD /* ResponseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
+		00A6B3DE29D78F63005236FD /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		00A6B3DF29D78F63005236FD /* PizzaOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaOptions.swift; sourceTree = "<group>"; };
+		00A6B3E029D78F64005236FD /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		00A6B3E129D78F64005236FD /* PizzaCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaCategory.swift; sourceTree = "<group>"; };
+		00A6B3E229D78F64005236FD /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		00A6B3E329D78F64005236FD /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		00A6B3EB29D78FA5005236FD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		00A6B3EC29D78FA5005236FD /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		00A6B3ED29D78FA5005236FD /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		00A6B3EE29D78FA5005236FD /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		00A6B3EF29D78FA6005236FD /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		00A6B3F629D7901B005236FD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza__App_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9252A5067BB6ABD06CD5D7 /* Pods-Pizza  App Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.release.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DA1A7F76D1036327C985CE07 /* Pods-Pizza  App Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.debug.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +113,13 @@
 		00A6B3A529D775EE005236FD /* Pizza  App Demo */ = {
 			isa = PBXGroup;
 			children = (
+				00A6B3F529D7900E005236FD /* Rating View */,
+				00A6B3EA29D78F97005236FD /* Extension */,
+				00A6B3DD29D78F52005236FD /* Model */,
+				00A6B3DA29D78F2D005236FD /* Network Model */,
+				00A6B3D529D78EE5005236FD /* Common */,
+				00A6B3D029D78EB0005236FD /* Custom Tab Bar */,
+				00A6B3C229D78BC6005236FD /* Networking */,
 				00A6B3C029D7775B005236FD /* Core Data */,
 				00A6B3BF29D77745005236FD /* Resources */,
 				00A6B3A629D775EE005236FD /* AppDelegate.swift */,
@@ -94,6 +147,86 @@
 				00A6B3AF29D775EE005236FD /* Pizza__App_Demo.xcdatamodeld */,
 			);
 			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		00A6B3C229D78BC6005236FD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3C329D78BD9005236FD /* Protocols */,
+				00A6B3CA29D78C02005236FD /* FeedRouter.swift */,
+				00A6B3C829D78C02005236FD /* MainRouter.swift */,
+				00A6B3C629D78C02005236FD /* NetworkClient.swift */,
+				00A6B3C929D78C02005236FD /* NetworkConstants.swift */,
+				00A6B3C729D78C02005236FD /* PizzaRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		00A6B3C329D78BD9005236FD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3C429D78BF4005236FD /* APIRouter.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		00A6B3D029D78EB0005236FD /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3D229D78EC5005236FD /* CustomTabBar.swift */,
+				00A6B3D129D78EC5005236FD /* CustomTabBarController.swift */,
+			);
+			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		00A6B3D529D78EE5005236FD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3D629D78EEF005236FD /* AppStoryboard.swift */,
+				00A6B3D729D78EEF005236FD /* NibLoadingView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		00A6B3DA29D78F2D005236FD /* Network Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3DB29D78F45005236FD /* ResponseObject.swift */,
+			);
+			path = "Network Model";
+			sourceTree = "<group>";
+		};
+		00A6B3DD29D78F52005236FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3E329D78F64005236FD /* CartItem.swift */,
+				00A6B3E129D78F64005236FD /* PizzaCategory.swift */,
+				00A6B3DF29D78F63005236FD /* PizzaOptions.swift */,
+				00A6B3E229D78F64005236FD /* Product.swift */,
+				00A6B3DE29D78F63005236FD /* Size.swift */,
+				00A6B3E029D78F64005236FD /* Slider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00A6B3EA29D78F97005236FD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3EE29D78FA5005236FD /* UICollectionView+Extensions.swift */,
+				00A6B3EB29D78FA5005236FD /* UIColor+Extensions.swift */,
+				00A6B3EF29D78FA6005236FD /* UIStackView+Extensions.swift */,
+				00A6B3EC29D78FA5005236FD /* UITableView+Extensions.swift */,
+				00A6B3ED29D78FA5005236FD /* UIView+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		00A6B3F529D7900E005236FD /* Rating View */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B3F629D7901B005236FD /* RatingView.swift */,
+			);
+			path = "Rating View";
 			sourceTree = "<group>";
 		};
 		409BA7A302BE51292512A695 /* Pods */ = {
@@ -199,7 +332,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			shellScript = "
+";
 		};
 		7AFA55322A6CCF0BA7C6AE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -247,10 +381,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A6B3E429D78F64005236FD /* Size.swift in Sources */,
+				00A6B3CE29D78C02005236FD /* NetworkConstants.swift in Sources */,
+				00A6B3DC29D78F45005236FD /* ResponseObject.swift in Sources */,
+				00A6B3F729D7901B005236FD /* RatingView.swift in Sources */,
 				00A6B3AB29D775EE005236FD /* ViewController.swift in Sources */,
+				00A6B3E629D78F64005236FD /* Slider.swift in Sources */,
+				00A6B3CF29D78C02005236FD /* FeedRouter.swift in Sources */,
+				00A6B3F229D78FA6005236FD /* UIView+Extensions.swift in Sources */,
+				00A6B3D929D78EEF005236FD /* NibLoadingView.swift in Sources */,
+				00A6B3CD29D78C02005236FD /* MainRouter.swift in Sources */,
+				00A6B3D829D78EEF005236FD /* AppStoryboard.swift in Sources */,
+				00A6B3E729D78F64005236FD /* PizzaCategory.swift in Sources */,
+				00A6B3D429D78EC5005236FD /* CustomTabBar.swift in Sources */,
+				00A6B3F329D78FA6005236FD /* UICollectionView+Extensions.swift in Sources */,
+				00A6B3C529D78BF4005236FD /* APIRouter.swift in Sources */,
+				00A6B3F129D78FA6005236FD /* UITableView+Extensions.swift in Sources */,
+				00A6B3F429D78FA6005236FD /* UIStackView+Extensions.swift in Sources */,
+				00A6B3D329D78EC5005236FD /* CustomTabBarController.swift in Sources */,
+				00A6B3E929D78F64005236FD /* CartItem.swift in Sources */,
+				00A6B3E529D78F64005236FD /* PizzaOptions.swift in Sources */,
 				00A6B3B129D775EF005236FD /* Pizza__App_Demo.xcdatamodeld in Sources */,
 				00A6B3A729D775EE005236FD /* AppDelegate.swift in Sources */,
+				00A6B3CC29D78C02005236FD /* PizzaRouter.swift in Sources */,
+				00A6B3E829D78F64005236FD /* Product.swift in Sources */,
+				00A6B3F029D78FA6005236FD /* UIColor+Extensions.swift in Sources */,
 				00A6B3A929D775EE005236FD /* SceneDelegate.swift in Sources */,
+				00A6B3CB29D78C02005236FD /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

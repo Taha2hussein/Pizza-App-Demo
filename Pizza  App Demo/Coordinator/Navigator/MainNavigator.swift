@@ -28,9 +28,9 @@ class MainNavigator: Navigator {
             let view = HomeViewController(viewModel: viewModel, coordinator: coordinator)
             return view
         case .itemDetails(let product):
-//            let viewModel = ItemDetailsViewModel(product: product)
-//            let view = ItemDetailsViewController(viewModel: viewModel, coordinator: coordinator)
-            return UIViewController()
+            let homeDetailViewModel = HomeDetailViewModel(product: product)
+            let view = HomeDetailsViewController(viewModel: homeDetailViewModel, coordinator: coordinator)
+            return view
         }
     }
 }

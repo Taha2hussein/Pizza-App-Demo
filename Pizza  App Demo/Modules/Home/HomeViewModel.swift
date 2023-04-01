@@ -11,13 +11,18 @@ import RxRelay
 
 protocol HomeViewModelInput {
     func viewDidLoad()
+    func disSelectProduct(_ indexPath: IndexPath)
+}
+ 
+protocol HomeViewModelOutput {
+    var navigateToNextView : PublishSubject<Product> {get set}
 }
 
-
-class HomeViewModel:BaseViewModel, HomeViewModelInput {
-    
+class HomeViewModel:BaseViewModel, HomeViewModelInput , HomeViewModelOutput {
+    var navigateToNextView: PublishSubject<Product> = .init()
     private var slidersObservable = PublishSubject<[Slider]>.init()
     private var popularObservable = PublishSubject<[Product]>.init()
+    var popularData = [Product]()
     var popular: Observable<[Product]> {
         return popularObservable
     }
@@ -42,6 +47,7 @@ class HomeViewModel:BaseViewModel, HomeViewModelInput {
         homeUseCase.fetchPopular().subscribe {[weak self] item in
             self?.isLoading.onNext(false)
             self?.popularObservable.onNext(item)
+            self?.popularData = item
         } onError: { _ in
             self.isLoading.onNext(false)
         } onCompleted: {
@@ -61,5 +67,9 @@ class HomeViewModel:BaseViewModel, HomeViewModelInput {
             self.isLoading.onNext(false)
         } .disposed(by: self.disposeBag)
 
+    }
+    
+    func disSelectProduct(_ indexPath: IndexPath) {
+        navigateToNextView.onNext(popularData[indexPath.row])
     }
 }

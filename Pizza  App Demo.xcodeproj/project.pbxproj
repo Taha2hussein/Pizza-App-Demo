@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00127BA829D8330B00FFBEF0 /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00127BA629D8330B00FFBEF0 /* HomeDetailsViewController.swift */; };
+		00127BA929D8330B00FFBEF0 /* HomeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00127BA729D8330B00FFBEF0 /* HomeDetailsViewController.xib */; };
+		00127BAB29D8350400FFBEF0 /* HomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00127BAA29D8350400FFBEF0 /* HomeDetailViewModel.swift */; };
 		00A6B3A729D775EE005236FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3A629D775EE005236FD /* AppDelegate.swift */; };
 		00A6B3A929D775EE005236FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3A829D775EE005236FD /* SceneDelegate.swift */; };
 		00A6B3AB29D775EE005236FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B3AA29D775EE005236FD /* ViewController.swift */; };
@@ -51,15 +54,16 @@
 		00A6B41929D7AED3005236FD /* PopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B41529D7AED3005236FD /* PopularCell.swift */; };
 		00A6B41A29D7AED3005236FD /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B41629D7AED3005236FD /* SliderCell.swift */; };
 		00A6B41B29D7AED3005236FD /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A6B41729D7AED3005236FD /* SliderCell.xib */; };
-		00A6B41D29D7AF26005236FD /* SliderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B41C29D7AF26005236FD /* SliderViewModel.swift */; };
 		00A6B41F29D7AF31005236FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B41E29D7AF31005236FD /* HomeViewModel.swift */; };
 		00A6B42229D7B262005236FD /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B42129D7B262005236FD /* HomeUseCase.swift */; };
 		00A6B42429D7B26C005236FD /* HomeRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B42329D7B26C005236FD /* HomeRepo.swift */; };
-		00A6B42629D7C139005236FD /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A6B42529D7C139005236FD /* ProductViewModel.swift */; };
 		5975036D2E97C63BDE7C2487 /* Pods_Pizza__App_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00127BA629D8330B00FFBEF0 /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		00127BA729D8330B00FFBEF0 /* HomeDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDetailsViewController.xib; sourceTree = "<group>"; };
+		00127BAA29D8350400FFBEF0 /* HomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewModel.swift; sourceTree = "<group>"; };
 		00A6B3A329D775EE005236FD /* Pizza  App Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza  App Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A6B3A629D775EE005236FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A6B3A829D775EE005236FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,11 +110,9 @@
 		00A6B41529D7AED3005236FD /* PopularCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCell.swift; sourceTree = "<group>"; };
 		00A6B41629D7AED3005236FD /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		00A6B41729D7AED3005236FD /* SliderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
-		00A6B41C29D7AF26005236FD /* SliderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewModel.swift; sourceTree = "<group>"; };
 		00A6B41E29D7AF31005236FD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		00A6B42129D7B262005236FD /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		00A6B42329D7B26C005236FD /* HomeRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRepo.swift; sourceTree = "<group>"; };
-		00A6B42529D7C139005236FD /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		3C642F3851EE6F58EABDBDBA /* Pods_Pizza__App_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pizza__App_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9252A5067BB6ABD06CD5D7 /* Pods-Pizza  App Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.release.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DA1A7F76D1036327C985CE07 /* Pods-Pizza  App Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pizza  App Demo.debug.xcconfig"; path = "Target Support Files/Pods-Pizza  App Demo/Pods-Pizza  App Demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00127BA429D832C600FFBEF0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				00A6B40D29D7A034005236FD /* HomeViewController.swift */,
+				00A6B40E29D7A034005236FD /* HomeViewController.xib */,
+				00A6B41E29D7AF31005236FD /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00127BA529D832EB00FFBEF0 /* Home Details */ = {
+			isa = PBXGroup;
+			children = (
+				00127BA629D8330B00FFBEF0 /* HomeDetailsViewController.swift */,
+				00127BA729D8330B00FFBEF0 /* HomeDetailsViewController.xib */,
+				00127BAA29D8350400FFBEF0 /* HomeDetailViewModel.swift */,
+			);
+			path = "Home Details";
+			sourceTree = "<group>";
+		};
 		00A6B39A29D775EE005236FD = {
 			isa = PBXGroup;
 			children = (
@@ -310,11 +332,8 @@
 		00A6B40C29D7A016005236FD /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				00A6B40D29D7A034005236FD /* HomeViewController.swift */,
-				00A6B40E29D7A034005236FD /* HomeViewController.xib */,
-				00A6B41C29D7AF26005236FD /* SliderViewModel.swift */,
-				00A6B41E29D7AF31005236FD /* HomeViewModel.swift */,
-				00A6B42529D7C139005236FD /* ProductViewModel.swift */,
+				00127BA529D832EB00FFBEF0 /* Home Details */,
+				00127BA429D832C600FFBEF0 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -421,6 +440,7 @@
 				00A6B3BE29D77714005236FD /* Colors.xcassets in Resources */,
 				00A6B41029D7A034005236FD /* HomeViewController.xib in Resources */,
 				00A6B41B29D7AED3005236FD /* SliderCell.xib in Resources */,
+				00127BA929D8330B00FFBEF0 /* HomeDetailsViewController.xib in Resources */,
 				00A6B41829D7AED3005236FD /* PopularCell.xib in Resources */,
 				00A6B3B329D775F3005236FD /* Assets.xcassets in Resources */,
 				00A6B40B29D79899005236FD /* Cart.storyboard in Resources */,
@@ -508,13 +528,13 @@
 				00A6B3D929D78EEF005236FD /* NibLoadingView.swift in Sources */,
 				00A6B3CD29D78C02005236FD /* MainRouter.swift in Sources */,
 				00A6B3D829D78EEF005236FD /* AppStoryboard.swift in Sources */,
-				00A6B42629D7C139005236FD /* ProductViewModel.swift in Sources */,
 				00A6B42229D7B262005236FD /* HomeUseCase.swift in Sources */,
 				00A6B3E729D78F64005236FD /* PizzaCategory.swift in Sources */,
 				00A6B41929D7AED3005236FD /* PopularCell.swift in Sources */,
 				00A6B3D429D78EC5005236FD /* CustomTabBar.swift in Sources */,
 				00A6B3F329D78FA6005236FD /* UICollectionView+Extensions.swift in Sources */,
 				00A6B3C529D78BF4005236FD /* APIRouter.swift in Sources */,
+				00127BA829D8330B00FFBEF0 /* HomeDetailsViewController.swift in Sources */,
 				00A6B3F129D78FA6005236FD /* UITableView+Extensions.swift in Sources */,
 				00A6B3F429D78FA6005236FD /* UIStackView+Extensions.swift in Sources */,
 				00A6B40929D79636005236FD /* BaseViewModel.swift in Sources */,
@@ -532,10 +552,10 @@
 				00A6B3CC29D78C02005236FD /* PizzaRouter.swift in Sources */,
 				00A6B3E829D78F64005236FD /* Product.swift in Sources */,
 				00A6B41F29D7AF31005236FD /* HomeViewModel.swift in Sources */,
+				00127BAB29D8350400FFBEF0 /* HomeDetailViewModel.swift in Sources */,
 				00A6B3F029D78FA6005236FD /* UIColor+Extensions.swift in Sources */,
 				00A6B3A929D775EE005236FD /* SceneDelegate.swift in Sources */,
 				00A6B3CB29D78C02005236FD /* NetworkClient.swift in Sources */,
-				00A6B41D29D7AF26005236FD /* SliderViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

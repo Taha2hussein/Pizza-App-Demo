@@ -11,7 +11,7 @@ class MainNavigator: Navigator {
     var coordinator: Coordinator
     
     enum Destination {
-        case home
+        case HomeViewController
         case itemDetails(product: Product)
     }
     
@@ -20,18 +20,17 @@ class MainNavigator: Navigator {
     }
 
     func viewController(for destination: Destination, coordinator: Coordinator) -> UIViewController {
-        return UIViewController()
-//        switch destination {
-//        case .home:
-//            let homeRepo = HomeRepositoryImpl()
-//            let homeUseCase = HomeUseCase(homeRepository: homeRepo)
-//            let viewModel = HomeViewModel(homeUseCase: homeUseCase)
-//            let view = HomeViewController(viewModel: viewModel, coordinator: coordinator)
-//            return view
-//        case .itemDetails(let product):
+        switch destination {
+        case .HomeViewController:
+            let homeRepo = HomeRepo()
+            let homeUseCase = HomeUseCase(homeRepo: homeRepo)
+            let viewModel = HomeViewModel(homeUseCase: homeUseCase)
+            let view = HomeViewController(viewModel: viewModel, coordinator: coordinator)
+            return view
+        case .itemDetails(let product):
 //            let viewModel = ItemDetailsViewModel(product: product)
 //            let view = ItemDetailsViewController(viewModel: viewModel, coordinator: coordinator)
-//            return view
-//        }
+            return UIViewController()
+        }
     }
 }

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Pizza__App_Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="pizzaTableView" destination="Nkp-gg-lKi" id="Izz-u7-yRh"/>
+                <outlet property="sliderCollectionView" destination="UkT-9s-b3B" id="YTf-6n-UvU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle5" translatesAutoresizingMaskIntoConstraints="NO" id="NJq-ay-fOv">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="269"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eob-oO-ikp">
+                    <rect key="frame" x="20" y="124" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" name="Whilte"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Nkp-gg-lKi">
+                    <rect key="frame" x="0.0" y="516" width="414" height="346"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="UkT-9s-b3B">
+                    <rect key="frame" x="0.0" y="186" width="414" height="330"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="330" id="yJP-l5-Ycv"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dLo-c2-QqE">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Nkp-gg-lKi" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3xO-Lv-Xbi"/>
+                <constraint firstItem="Eob-oO-ikp" firstAttribute="centerY" secondItem="NJq-ay-fOv" secondAttribute="centerY" id="4db-Ee-jpc"/>
+                <constraint firstItem="NJq-ay-fOv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="6ku-uW-bBn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Nkp-gg-lKi" secondAttribute="bottom" id="8hv-Dn-1Ap"/>
+                <constraint firstItem="Eob-oO-ikp" firstAttribute="centerX" secondItem="NJq-ay-fOv" secondAttribute="centerX" id="9cd-Id-9hY"/>
+                <constraint firstItem="Eob-oO-ikp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="9hj-dH-SxJ"/>
+                <constraint firstItem="Nkp-gg-lKi" firstAttribute="top" secondItem="UkT-9s-b3B" secondAttribute="bottom" id="Aac-sP-6CO"/>
+                <constraint firstItem="NJq-ay-fOv" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.3" id="Dld-G0-Whd"/>
+                <constraint firstItem="UkT-9s-b3B" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NiW-Rx-E0c"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NJq-ay-fOv" secondAttribute="trailing" id="abd-F0-hK2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nkp-gg-lKi" secondAttribute="trailing" id="gN6-3H-lOV"/>
+                <constraint firstItem="NJq-ay-fOv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="haf-dY-mnl"/>
+                <constraint firstItem="UkT-9s-b3B" firstAttribute="top" secondItem="Eob-oO-ikp" secondAttribute="bottom" constant="41" id="iVB-oP-rEn"/>
+                <constraint firstItem="UkT-9s-b3B" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jve-iA-VkN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Eob-oO-ikp" secondAttribute="trailing" constant="20" id="oGd-oM-4Bt"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="65"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rectangle5" width="375" height="330"/>
+        <namedColor name="Whilte">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

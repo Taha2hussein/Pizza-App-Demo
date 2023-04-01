@@ -78,9 +78,8 @@ class CustomTabBarController: UITabBarController {
     func viewControllerForTabBarItem(_ item: TabBarItems) -> UIViewController{
         switch item {
         case .Home:
-            let view = UIViewController()
-//            let view = coordinator.Main.viewController(for: .home, coordinator: coordinator)
-//            view.tabBarItem = tabBarItem(for: item)
+            let view = coordinator.Main.viewController(for: .HomeViewController, coordinator: coordinator)
+            view.tabBarItem = tabBarItem(for: item)
             return view
         case .PizzaMaker:
 //            let view = coordinator.Pizza.viewController(for: .pizzaMakerOptions, coordinator: coordinator)

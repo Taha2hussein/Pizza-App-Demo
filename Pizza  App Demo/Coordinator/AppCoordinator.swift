@@ -60,6 +60,7 @@ class AppCoordinator: Coordinator {
     init(window: UIWindow = UIWindow(), isSub: Bool = false) {
         self.window = window
         self.isSub = isSub
+        self.window.backgroundColor = .white
     }
     
     func start(){

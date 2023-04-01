@@ -51,7 +51,8 @@ class BaseWireframe<T: BaseViewModel>: UIViewController {
     }
 
     func bind(viewModel: T){
-        fatalError("Please override bind function")
+        print("There is Wired Error , Please override bind function")
+//        fatalError("Please override bind function")
     }
     
     required init?(coder: NSCoder) {
